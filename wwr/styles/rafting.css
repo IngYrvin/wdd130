@@ -14,10 +14,11 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+
 }
 
 * {
-    marging: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -36,19 +37,25 @@ footer {
 
 h1,
 h2 {
-    font-family: var(--heading-font) color: var(--privary-color);
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 nav,
 p,
 section,
 article {
-    margin: 16 px;
-    padding: 8 px;
+    margin: 16px;
+    padding: 8px;
 }
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 25px;
+    height: auto;
 }
 
 .hero {
@@ -61,18 +68,23 @@ article {
     height: auto;
 }
 
-hi {
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: var(--accent1-color) color: #fff;
+    background-color: var(--accent1-color);
+    color: #fff;
     /* white text - make sure there is enough contrast with the background-color */
-
 }
 
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.logo {
+    width: 150px;
+    height: auto
 }
