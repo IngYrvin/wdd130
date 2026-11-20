@@ -95,3 +95,8 @@ h1 {
     left: 20px;
     right: 20px;
 }
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
