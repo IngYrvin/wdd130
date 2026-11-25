@@ -62,7 +62,7 @@ nav ul {
 }
 
 nav li {
-    flex: 1;
+    flex: 100%;
     border-right: 1px solid var(--primary-color);
 }
 
