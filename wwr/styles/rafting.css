@@ -12,7 +12,7 @@
 }
 
 header {
-    background-color: var(white);
+    background-color: var(--white);
     color: var(--accent2-color);
     display: flex;
     align-items: center;
