@@ -41,7 +41,10 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
+nav {
+    display: flex;
+}
+
 p,
 section,
 article {
